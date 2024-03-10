@@ -1,0 +1,52 @@
+/* HomePage.css */
+
+.home-page {
+    padding: 20px;
+    background-color: #f8f9fa; 
+   }
+   
+   .home-page h2 {
+    text-align: center;
+    margin-bottom: 30px;
+   }
+   
+   .home-page .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+   }
+   
+   .home-page .image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+   }
+   
+   .home-page .image-container button {
+    margin-right: 10px;
+   }
+   
+   .home-page .cart-section {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #007bff; 
+    padding: 5px 10px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border-radius: 5px; 
+   }
+   
+   .home-page .cart-section a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 18px;
+   }
+   
+  
+   .home-page .image-container button:last-child {
+    margin-right: 0; 
+   }
+   
